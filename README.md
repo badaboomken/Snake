@@ -1,1 +1,1 @@
-# Snake
+# snakeJSschool
