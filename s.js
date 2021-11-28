@@ -132,6 +132,8 @@ function drawSnake() {
 				config.maxStep = 5;
 			} else if ( score === 40 ) {
 				config.maxStep = 4;
+			}
+		}
 		/* нужно проверить змейку с хвостом ЕСЛИ совпало то заного запускаем игру */
 		for( let i = index + 1; i < snake.tails.length; i++ ) {
 			/* если координаты совпали то запускаем заного */
@@ -141,7 +143,7 @@ function drawSnake() {
 			}
 		}
 
-	} );
+	});
 	
 }
 
@@ -225,4 +227,3 @@ document.addEventListener("keydown", function (e) {
 		snake.dy = 0;
 	}
 });
-
